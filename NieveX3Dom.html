@@ -1,0 +1,146 @@
+<html>
+ <head>
+ <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+ <title>Muñeco de nieve</title>
+ <script type='text/javascript'
+src='https://www.x3dom.org/download/x3dom.js'> </script>
+ <link rel='stylesheet' type='text/css'
+href='https://www.x3dom.org/download/x3dom.css'></link>
+ </head>
+ <body>
+ 	<h2>Nieveeeee</h2>
+	<x3d width='1000px' height='900px'>
+	 	<scene>
+		        <!-- Esfera 1 -->
+			<!-- A las coords del otro les reste -1.25 en z:P -->
+			<!-- la primera es la 3ra y aumenta hacia afuera -->
+			<!-- la segunda es la 1ra y funciona igua, negativo izq-->
+
+			<!-- La rotacion se escoge el eje y se da el angulo en rad -->
+			<!-- La rotacion el 1ro es el 3ro y viceversa -->
+        		<transform translation="0 -1 0">
+          		<shape>
+            		<appearance><material diffuseColor="0.89 0.96 1"></material></appearance>
+            		<sphere radius="1"></sphere>
+          		</shape>
+        		</transform>
+
+		        <!-- Esfera 2 -->
+        		<transform translation="0 0.525 0">
+          		<shape>
+            		<appearance><material diffuseColor="0.89 0.96 1"></material></appearance>
+            		<sphere radius="0.75"></sphere>
+          		</shape>
+        		</transform>
+
+			<!-- Esfera 3 -->
+        		<transform translation="0 1.625 0">
+          		<shape>
+            		<appearance><material diffuseColor="0.89 0.96 1"></material></appearance>
+            		<sphere radius="0.5"></sphere>
+          		</shape>
+        		</transform>
+
+			<!-- Rama 1-->
+        		<transform translation="-0.8 0.45 0" rotation="0 0 1 -0.523">
+          		<shape>
+            		<appearance>
+              		<material diffuseColor="0.8 0.73 0.6"></material>
+            		</appearance>
+            		<cylinder radius="0.1" height="1.2"></cylinder>
+          		</shape>
+        		</transform>
+
+			<!-- Rama 2-->
+        		<transform translation="0.8 0.45 0" rotation="0 0 1 0.523">
+          		<shape>
+            		<appearance>
+              		<material diffuseColor="0.8 0.73 0.6"></material>
+            		</appearance>
+            		<cylinder radius="0.1" height="1.2"></cylinder>
+          		</shape>
+        		</transform>
+
+			<!-- Carbon 1 -->
+        		<transform translation="0.2 1.75 0.4">
+          		<shape>
+            		<appearance><material diffuseColor="0.18 0.18 0.18"></material></appearance>
+            		<sphere radius="0.1"></sphere>
+          		</shape>
+        		</transform>
+
+			<!-- Carbon 1 -->
+        		<transform translation="-0.2 1.75 0.4">
+          		<shape>
+            		<appearance><material diffuseColor="0.18 0.18 0.18"></material></appearance>
+            		<sphere radius="0.1"></sphere>
+          		</shape>
+        		</transform>
+
+			<!-- Zanahoria -->
+        		<transform translation="0 1.625 0.6" rotation="1 0 0 1.57">
+          		<shape>
+            		<appearance>
+              		<material diffuseColor="1 0.71 0.49"></material>
+            		</appearance>
+            		<cylinder radius="0.05" height="1"></cylinder>
+          		</shape>
+        		</transform>
+
+			<!-- Bufanda -->
+        		<transform translation="0 1.175 0">
+          		<shape>
+            		<appearance>
+              		<material diffuseColor="0.63 0.49 1"></material>
+            		</appearance>
+            		<cylinder radius="0.55" height="0.2"></cylinder>
+          		</shape>
+        		</transform>
+
+			<!-- Boton 1 -->
+        		<transform translation="0 0.525 0.8">
+          		<shape>
+            		<appearance><material diffuseColor="0.18 0.18 0.18"></material></appearance>
+            		<sphere radius="0.1"></sphere>
+          		</shape>
+        		</transform>
+
+			<!-- Boton 2 -->
+        		<transform translation="0 0.8 0.7">
+          		<shape>
+            		<appearance><material diffuseColor="0.18 0.18 0.18"></material></appearance>
+            		<sphere radius="0.1"></sphere>
+          		</shape>
+        		</transform>
+
+			<!-- Boton 3 -->
+        		<transform translation="0 0.25 0.7">
+          		<shape>
+            		<appearance><material diffuseColor="0.18 0.18 0.18"></material></appearance>
+            		<sphere radius="0.1"></sphere>
+          		</shape>
+        		</transform>
+
+			<!-- Gorro 1 -->
+        		<transform translation="0 2.05 0">
+          		<shape>
+            		<appearance>
+              		<material diffuseColor="0.5 0.7 1"></material>
+            		</appearance>
+            		<cylinder radius="0.45" height="0.15"></cylinder>
+          		</shape>
+        		</transform>
+
+			<!-- Gorro 2 -->
+        		<transform translation="0 2.275 0">
+          		<shape>
+            		<appearance>
+              		<material diffuseColor="0.5 0.7 1"></material>
+            		</appearance>
+            		<cylinder radius="0.3" height="0.5"></cylinder>
+          		</shape>
+        		</transform>
+	 	</scene>
+	</x3d>
+</body>
+</html>
